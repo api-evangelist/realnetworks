@@ -1,7 +1,27 @@
 aid: realnetworks
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/realnetworks.png
 name: RealNetworks
-description: RealNetworks is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  RealNetworks is a Seattle-based technology company that pairs AI-powered
+  computer-vision and secure-communication products with its long-running
+  consumer media brands. Its portfolio includes SAFR (facial recognition for
+  security and retail loss prevention), Kontxt (AI messaging and voice security
+  for CPaaS platforms, Telcos, and MNOs), GameHouse (cross-device casual
+  gaming), and RealPlayer (media playback). Product APIs for SAFR and Kontxt are
+  delivered through authenticated partner portals rather than an open developer
+  portal; the historical Real Developer Program (developer.real.com) is no
+  longer live, and no public OpenAPI specification was found during enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/realnetworks/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Facial Recognition
+- Computer Vision
+- Messaging Security
+- CPaaS
+- Gaming
+- Media
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +48,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/realnetworks-domain-security.yml
 - type: Website
   url: http://www.realnetworks.com
+- type: Support
+  url: https://www.realnetworks.com/support
+- type: TermsOfService
+  url: https://www.realnetworks.com/terms
+- type: PrivacyPolicy
+  url: https://www.realnetworks.com/privacy-policy
+- type: LLMsTxt
+  url: llms/realnetworks-llms.txt
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1

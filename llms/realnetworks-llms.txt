@@ -1,0 +1,25 @@
+# RealNetworks
+
+> RealNetworks is a Seattle-based technology company that builds AI-powered computer-vision and secure-communication products alongside its long-running consumer media brands. Its portfolio spans SAFR (facial recognition for security), Kontxt (AI messaging security for CPaaS/telco), GameHouse (casual gaming), and RealPlayer (media playback). Public developer/API surfaces are limited: product APIs (SAFR, Kontxt) are delivered through authenticated partner portals rather than an open developer portal, and the historical Real Developer Program (developer.real.com) is no longer live.
+
+## Products
+- [SAFR](https://safr.com/): AI-powered facial recognition for security professionals; delivered via the SAFR platform and partner/SDK integrations behind an authenticated portal.
+- [SAFR Guard](https://safr.com/): Retail crime prevention and loss-prevention computer vision.
+- [Kontxt](https://www.realnetworks.com/kontxt): AI messaging/communication security for CPaaS platforms, Telcos, and MNOs; integrates via API into carrier messaging and voice flows.
+- [GameHouse](https://www.realnetworks.com/products-services/gamehouse): Cross-device casual gaming platform.
+- [RealPlayer](https://www.real.com/): Media playback and download application.
+
+## Company
+- [Website](https://www.realnetworks.com/)
+- [Our Story](https://www.realnetworks.com/our-story)
+- [Support](https://www.realnetworks.com/support)
+- [Contact](https://www.realnetworks.com/contact)
+- [Careers](https://www.realnetworks.com/careers)
+
+## Legal
+- [Terms of Service](https://www.realnetworks.com/terms)
+- [Privacy Policy](https://www.realnetworks.com/privacy-policy)
+
+## Notes
+- No public OpenAPI/AsyncAPI specification, .well-known discovery surface, security.txt, bug-bounty program, or trust center was found during enrichment (2026-07-20).
+- Product APIs (SAFR, Kontxt) require partner onboarding/authentication and are not published as open specs.
