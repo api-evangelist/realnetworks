@@ -46,7 +46,7 @@ modified: '2026-07-20'
 tags:
 - Company
 - Facial Recognition
-- Computer-Vision
+- Computer Vision
 - Messaging Security
 - CPaaS
 - Gaming
@@ -61,6 +61,7 @@ tags_raw:
 - Gaming
 - Media
 - Artificial Intelligence
+- Computer-Vision
 apis: []
 maintainers:
 - FN: Kin Lane
